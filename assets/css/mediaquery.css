@@ -1,0 +1,167 @@
+
+@media (min-width: 600px) {
+
+  
+    .service-card-mother,.work-card-mother{
+         display:grid;
+             grid-template-columns: repeat(2,300px);
+        justify-content:center;
+        align-items:center;
+        padding-top:30px;
+        gap:30px;
+    padding-bottom:40px;
+        
+    }
+
+	.home{
+		 display:flex;
+		 flex-direction:column;
+	justify-content:center;
+	align-items:center;
+		
+	}
+
+.home h3{
+	font-size:22px;
+}
+	
+	.home h1{
+	font-size:38px;
+		padding-right:10%;
+		padding-left:10%;
+}
+	
+
+     .service-card{
+		 height:450px;
+	 }
+
+
+     .work-card{
+		 height:550px;
+	 }
+
+    
+
+
+
+	 
+       
+      }
+    
+    
+    
+    @media (min-width: 1024px) {
+    
+      
+    .service-card-mother,.work-card-mother{
+         display:grid;
+             grid-template-columns: repeat(3,300px);
+        justify-content:center;
+        align-items:center;
+        padding-top:30px;
+        gap:30px;
+    padding-bottom:40px;
+        
+    }
+
+
+		.menu-btns{
+		visibility: hidden;
+	   }
+	   
+	   .logo-card{
+		position:relative;
+		left:50px;
+	 top:25px;
+		font-weight:bold;
+	  }
+	  
+	   
+	   
+	   #menu-bar{
+		display:flex;
+        flex-direction:row; 
+        z-index:99999;
+        position:fixed;
+       height:70px;
+       background-color:transparent;
+         visibility: visible;
+         justify-content:right;
+         top:-05px;
+          visibility: visible;
+         left:-130px;
+		 box-shadow: none;
+	   }
+	   
+	   .nav-link a{
+		text-decoration:none;
+	   color: var(--color-white);
+		font-weight:500;
+		font-size:17px;
+	   }
+	   
+	   
+	   
+	   .nav-link{
+		font-weight:600;
+    top:20px;
+    font-size:58px;
+     display:inline-flex;
+     visibility: visible;
+          margin:15px;
+                  border:none;
+	   }
+	   
+
+	   .nav-link a:hover{
+		text-decoration:none;
+		color: var(--color-purple);
+	   } 
+	   
+
+	  
+		   
+	   
+	   .slide{
+	    visibility: visible;
+           left:-40px;
+	   }
+	   
+	   
+	   .hide{
+	   visibility:hidden;
+	   z-index:1;
+	   }
+	   
+	   .open{
+	   position:absolute;
+	   
+	   }
+
+		.services .shift{
+			padding-left:3%;
+			padding-right:10%;
+		}
+       
+      }
+    
+    
+    
+    @media (min-width: 1321px) {
+    
+      
+    .service-card-mother,.work-card-mother{
+         display:grid;
+             grid-template-columns: repeat(3,330px);
+        justify-content:center;
+        align-items:center;
+        padding-top:30px;
+        gap:30px;
+    padding-bottom:40px;
+        
+    }
+    
+       
+      }
+      
